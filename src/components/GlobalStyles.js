@@ -8,7 +8,8 @@ const GlobalStyles = createGlobalStyle`
     }
 
     body{
-        background: #1b1b1b
+        background: #1b1b1b;
+        font-family: 'Roboto', sans-serif;
     }
 
     button{
