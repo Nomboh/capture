@@ -2,6 +2,7 @@ import React from "react";
 import home1 from "../img/home1.png";
 // styles
 import styled from "styled-components";
+import { About, Description, Hide, Image } from "../styles";
 
 const AboutSection = () => {
   return (
@@ -31,42 +32,11 @@ const AboutSection = () => {
         <button>Contact Us</button>
       </Description>
 
-      <Image className="image">
-        <img src={home1} alt="photographer 1" srcset="" />
+      <Image>
+        <img src={home1} alt="photographer 1" />
       </Image>
     </About>
   );
 };
-
-const About = styled.div`
-  min-height: 90vh;
-  display: flex;
-  justify-items: center;
-  justify-content: space-around;
-  padding: 5rem 10rem;
-  color: white;
-`;
-
-const Description = styled.div`
-  h2 {
-    font-weight: lighter;
-  }
-  padding-right: 5rem;
-  flex: 1;
-`;
-
-const Image = styled.div`
-  flex: 1;
-  overflow: hidden;
-  img {
-    width: 100%;
-    height: 80vh;
-    object-fit: cover;
-  }
-`;
-
-const Hide = styled.div`
-  overflow: hidden;
-`;
 
 export default AboutSection;

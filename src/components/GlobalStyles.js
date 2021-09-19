@@ -32,6 +32,7 @@ const GlobalStyles = createGlobalStyle`
 
     span{
         color: #23d997;
+        font-weight: bold;
     }
 
     p{
