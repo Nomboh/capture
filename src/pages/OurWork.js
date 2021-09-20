@@ -8,6 +8,7 @@ import goodtimes from "../img/goodtimes-small.png";
 // animations
 import { motion } from "framer-motion";
 import useScroll from "../useScroll";
+import ScrollTop from "../ScrollTop";
 import {
   animatePages,
   photoAnimation,
@@ -57,6 +58,7 @@ const OurWork = () => {
           <img src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>
+      <ScrollTop />
     </Work>
   );
 };

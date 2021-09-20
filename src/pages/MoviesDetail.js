@@ -5,6 +5,7 @@ import { MovieState } from "../movieState";
 // animations
 import { motion } from "framer-motion";
 import { animatePages } from "../animate";
+import ScrollTop from "../ScrollTop";
 
 const MovieDetails = () => {
   const history = useHistory();
@@ -43,6 +44,7 @@ const MovieDetails = () => {
           <ImageDisplay>
             <img src={movie.secondaryImg} alt="movie" />
           </ImageDisplay>
+          <ScrollTop />
         </Details>
       )}
     </>
