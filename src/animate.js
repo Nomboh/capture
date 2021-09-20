@@ -89,3 +89,21 @@ export const sliderContainer = {
     transition: { duration: 0.5, ease: "easeOut" },
   },
 };
+
+export const scrollAnim = {
+  hidden: {
+    scale: 1.2,
+    opacity: 0,
+    transition: {
+      duration: 0.2,
+    },
+  },
+
+  show: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      duration: 0.5,
+    },
+  },
+};
