@@ -15,11 +15,13 @@ export const Description = styled.div`
   }
   padding-right: 5rem;
   flex: 1;
+  z-index: 10;
 `;
 
 export const Image = styled.div`
   flex: 1;
   overflow: hidden;
+  z-index: 10;
   img {
     width: 100%;
     height: 80vh;

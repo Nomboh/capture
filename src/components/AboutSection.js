@@ -1,10 +1,10 @@
 import React from "react";
 import home1 from "../img/home1.png";
 // styles
-import styled from "styled-components";
 import { About, Description, Hide, Image } from "../styles";
 import { motion } from "framer-motion";
 import { titleAnimation, fade, photoAnimation } from "../animate";
+import Wave from "../Wave";
 
 const AboutSection = () => {
   return (
@@ -41,6 +41,8 @@ const AboutSection = () => {
           variants={photoAnimation}
         />
       </Image>
+
+      <Wave />
     </About>
   );
 };
